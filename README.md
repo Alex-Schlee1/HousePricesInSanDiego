@@ -96,7 +96,7 @@ In the model building part I decided to take the Linear Regression in order to b
 
 #### Scatterplot which shows the predicted and the actual values
 
-<img src='./images/image12.PNG' width=400>
+<img src='./images/image12.PNG' width=600>
 
 
 Finally, the results were saved as a pickle file and a json file which we need for building the Flask Server in the next step. 
