@@ -75,19 +75,19 @@ When data is missing you can either take the median or the mean of the available
 
 #### Monthly house price distribution
 
-<img src='./images/image8.PNG' width=400>
+<img src='./images/image8.PNG' width=600>
 
 #### Heatmap showing the correlations between the features and target
 
-<img src='./images/image9.PNG' width=400>
+<img src='./images/image9.PNG' width=600>
 
 #### Correlation between the area and the monthly price
 
-<img src='./images/image10.PNG' width=400>
+<img src='./images/image10.PNG' width=600>
 
 #### Correlation between the number of bedrooms and the monthly price
 
-<img src='./images/image11.PNG' width=400>
+<img src='./images/image11.PNG' width=600>
 
 
 ## Part 4- Model Building
