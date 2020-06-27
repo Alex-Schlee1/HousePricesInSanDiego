@@ -14,20 +14,43 @@
 <img src='./images/image2.jpg' width=600>
     
  ### Credits: 
- A big thank you goes to [KenJee](https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg), [Codebasics](https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ), [Krish Naik](https://www.youtube.com/user/krishnaik06), [Keith Galli](https://www.youtube.com/channel/UCq6XkhO5SZ66N04IcPbqNcw)  and to the whole [Edureka team](https://www.youtube.com/user/edurekaIN) who put a lot of effort to teach people Data Science,Machine Learning, Statistics and a lot of other related topics for free.
+ A big thank you goes to [KenJee](https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg), [Codebasics](https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ), [Krish Naik](https://www.youtube.com/user/krishnaik06), [Keith Galli](https://www.youtube.com/channel/UCq6XkhO5SZ66N04IcPbqNcw)  and to the whole [Edureka Team](https://www.youtube.com/user/edurekaIN) who put a lot of effort to teach people Data Science,Machine Learning, Statistics and a lot of other related topics for free.
  
  ### Project Goal and Procedure
  * Goal: Build a Model which can predict monthly prices for renting apartments in San Diego, CA. 
- * Scraped apartment and price information from Zillow.com using Python and Scrapy. Data was extracted by scraping the website's API and storing the results in a csv file. Scrapy is a common framework for extracting, processing, and storing web data. Zillow is a US- real estate market place. 
+ * Scraped apartment and price information from Zillow.com using Python and Scrapy. 
  * Saved results in a csv file and manipulated and worked with the data using the pandas package
  * visualization of data using seaborn and matplotlib packages
  * Built a linear regression model with an accuracy of 75%
  * Turned the model into an API using Flask
  
+
+### Code and Resources
+
+* Python Version: 3.7
+* Environment: Visual Studio, Pycharm, Jupyter Notebook
+* Packages: Scrapy, Matplotlib, Seaborn, Numpy, Scikit-learn, Flask
+
+### Part 1- Scraping Data using Scrapy
+Data was extracted by scraping the website's API and storing the results in a csv file. Scrapy is a common framework for extracting, processing, and storing web data. Zillow is a US- real estate market place. 
+
+
 <img src='./images/image1.PNG' width=450> 
 
+#### Data Scraped:
+* City
+* State
+* Area in Sqft
+* Baths
+* Beds
+* Latitude
+* Longitude
+* Price 
+* Beds
 
 <img src='./images/image3.PNG' width=900>
 
+### Output in pandas after scraping (first 5 entries)
+<img src='./images/image4.PNG' width=650> 
 
 
