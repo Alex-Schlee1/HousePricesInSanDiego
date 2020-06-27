@@ -27,7 +27,7 @@
 <img src='./images/image1.PNG' width=450> 
 
 
-<img src='./images/image3.PNG' width=800>
+<img src='./images/image3.PNG' width=900>
 
 
 
