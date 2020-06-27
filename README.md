@@ -66,8 +66,30 @@ When data is missing you can either take the median or the mean of the available
 
 <img src='./images/image6.PNG' width=450>
 
-##### After modifiying the data, the rows and the columns, our data frame looks like this (first 5 entries):
+#### After modifiying the data, the rows and the columns, our data frame looks like this (first 5 entries):
 <img src='./images/image7.PNG' width=500>
+
+### Part 3- Exploratory Data Analysis
+
+#### Monthly house price distribution
+
+<img src='./images/image8.PNG' width=400>
+
+#### Heatmap showing the correlations between the features and target
+
+img src='./images/image9.PNG' width=400>
+
+#### Correlation between the area and the monthly price
+
+img src='./images/image10.PNG' width=400>
+
+#### Correlation between the amount of bedrooms and the monthly price
+
+img src='./images/image11.PNG' width=400>
+
+
+
+
 
 
 
