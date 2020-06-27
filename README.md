@@ -31,7 +31,7 @@
 * Environment: Visual Studio, Pycharm, Jupyter Notebook
 * Packages: Scrapy, Matplotlib, Seaborn, Numpy, Scikit-learn, Flask
 
-### Part 1- Scraping Data using Scrapy
+## Part 1- Scraping Data using Scrapy
 Data was extracted by scraping the website's API and storing the results in a csv file. Scrapy is a common framework for extracting, processing, and storing web data. Zillow is a US- real estate market place. 
 
 
@@ -67,9 +67,10 @@ When data is missing you can either take the median or the mean of the available
 <img src='./images/image6.PNG' width=450>
 
 #### After modifiying the data, the rows and the columns, our data frame looks like this (first 5 entries):
+
 <img src='./images/image7.PNG' width=500>
 
-### Part 3- Exploratory Data Analysis
+## Part 3- Exploratory Data Analysis
 
 #### Monthly house price distribution
 
@@ -77,7 +78,7 @@ When data is missing you can either take the median or the mean of the available
 
 #### Heatmap showing the correlations between the features and target
 
-img src='./images/image9.PNG' width=400>
+<img src='./images/image9.PNG' width=400>
 
 #### Correlation between the area and the monthly price
 
