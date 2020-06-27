@@ -110,7 +110,9 @@ In this last step, I developed a flask (web framework) API endpoint following al
 <img src='./images/image13.PNG' width=1000>
 
 
+## Part 6- Project Limitation
 
+Since a lot of rows were deleted due to imcomplete data, the dataset is not that big to build a reliable model. Furthermore I chose to use the multiple linear regression approach to make predictions. For further projects GridSearchCV can be used which is a common machine technique in the area of machine learning to find out which model with which parameters performs best. Furthermore the deployment in AWS can be considered as a next step. Finally, more features (districts, parking lot available etc.) can be used as additional independent variables to build a more reliable model.
 
 
 
