@@ -60,13 +60,14 @@ After scraping the data and storing it in csv and pandas, I had to do some clean
 * remove 'city' and'state' columns because every just San Diego data is analyzed so we dont get any additional value from that information 
 
 Example of using the matplotlib visualization package to get an overview what data is missing:
-<img src='./images/image5.PNG' width=600>
+<img src='./images/image5.PNG' width=450>
 
 When data is missing you can either take the median or the mean of the available data for the missing values or remove the row completely. I decided to remove every row which where data is missing. In total, more than 40% of the data rows were deleted (Before removing: 840 entries, After removing: 485 entries). After the rows were deleted, the same visualization technique shows that we do not have missing values in our dataset anymore:
-<img src='./images/image6.PNG' width=600>
 
-After modifiying the data, the rows and the columns, our data frame looks like this (first 5 entries):
-<img src='./images/image7.PNG' width=600>
+<img src='./images/image6.PNG' width=450>
+
+##### After modifiying the data, the rows and the columns, our data frame looks like this (first 5 entries):
+<img src='./images/image7.PNG' width=500>
 
 
 
