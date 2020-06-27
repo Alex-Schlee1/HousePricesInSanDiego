@@ -107,7 +107,7 @@ Finally, the results were saved as a pickle file and a json file which we need f
 
 In this last step, I developed a flask (web framework) API endpoint following along with the Codebasics tutorial which I mentioned in the beginning. The purpose is to create a website which can reach out to the backend and get a response. In this simplified website a user would be able to enter the desired area, the number of bedrooms and bathrooms and would get back a monthly price. All this information is based on the model which was created in the previous steps.
 
-<img src='./images/image13.PNG' width=900>
+<img src='./images/image13.PNG' width=1000>
 
 
 
