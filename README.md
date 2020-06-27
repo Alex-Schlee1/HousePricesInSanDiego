@@ -30,9 +30,10 @@
 * Python Version: 3.7
 * Environment: Visual Studio, Pycharm, Jupyter Notebook
 * Packages: Scrapy, Matplotlib, Seaborn, Numpy, Scikit-learn, Flask
+* Other tools: Postman 
 
 ## Part 1- Scraping Data using Scrapy
-Data was extracted by scraping the website's API and storing the results in a csv file. Scrapy is a common framework for extracting, processing, and storing web data. Zillow is a US- real estate market place. 
+Data was extracted by scraping the website's API and storing the results in a csv file. Scrapy is a common framework for extracting, processing, and storing web data. Zillow is a US- Real Estate market place. 
 
 
 <img src='./images/image1.PNG' width=450> 
@@ -82,11 +83,36 @@ When data is missing you can either take the median or the mean of the available
 
 #### Correlation between the area and the monthly price
 
-img src='./images/image10.PNG' width=400>
+<img src='./images/image10.PNG' width=400>
 
-#### Correlation between the amount of bedrooms and the monthly price
+#### Correlation between the number of bedrooms and the monthly price
 
-img src='./images/image11.PNG' width=400>
+<img src='./images/image11.PNG' width=400>
+
+
+## Part 4- Model Building
+
+In the model building part I decided to take the Linear Regression in order to build a prediction model for monthly housing prices in San Diego. I decided to take just three columns as the independent variables (area in sqft, bathrooms, bedrooms) to predict the target variable (monthly price in $). I used the train_test_split function from the Scikit-learn package in order to train the model. The test size was set to 10%, the training size to 90%. The accuracy of the Linear Regression Model Score is 75,79%.
+
+#### Scatterplot which shows the predicted and the actual values
+
+<img src='./images/image12.PNG' width=400>
+
+
+Finally, the results were saved as a pickle file and a json file which we need for building the Flask Server in the next step. 
+.
+
+
+## Part 5- Flask Server
+
+In this last step, I developed a flask (web framework) API endpoint following along with the Codebasics tutorial which I mentioned in the beginning. The purpose is to create a website which can reach out to the backend and get a response. In this simplified website a user would be able to enter the desired area, the number of bedrooms and bathrooms and would get back a monthly price. All this information is based on the model which was created in the previous steps.
+
+<img src='./images/image13.PNG' width=600>
+
+
+
+
+
 
 
 
