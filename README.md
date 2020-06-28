@@ -18,7 +18,7 @@
  
  ### Project Goal and Procedure
  * Goal: Build a Model which can predict monthly prices for renting apartments in San Diego, CA. 
- * Scraped apartment and price information from Zillow.com using Python and Scrapy. 
+ * Scraped apartment and price information from [Zillow.com](https://www.zillow.com/) using Python and Scrapy. 
  * Saved results in a csv file and manipulated and worked with the data using the pandas package
  * visualization of data using seaborn and matplotlib packages
  * Built a linear regression model with an accuracy of 75%
