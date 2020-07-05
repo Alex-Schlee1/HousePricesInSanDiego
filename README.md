@@ -67,7 +67,7 @@ When data is missing you can either take the median or the mean of the available
 
 <img src='./images/image6.PNG' width=450>
 
-#### After modifiying the data, the rows and the columns, our data frame looks like this (first 5 entries):
+#### After modifying the data, the rows and the columns, our data frame looks like this (first 5 entries):
 
 <img src='./images/image7.PNG' width=500>
 
