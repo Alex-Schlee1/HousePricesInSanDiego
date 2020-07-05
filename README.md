@@ -58,7 +58,7 @@ After scraping the data and storing it in csv and pandas, I had to do some clean
 * remove rows where data is missing
 * make the data machine readable (e.g. changing the data types, removing string elements from specific columns)
 * rename some columns
-* remove 'city' and 'state' columns because just San Diego data is analyzed so we dont get any additional value from that information 
+* remove 'addressCity' and 'addressState' columns because just San Diego data is analyzed so we dont get any additional value from that information 
 
 Example of using the matplotlib visualization package to get an overview what data is missing:
 <img src='./images/image5.PNG' width=450>
