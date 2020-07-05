@@ -27,7 +27,7 @@
 
 ### Code and Resources
 
-* Python Version: 3.7
+* Python Version: 3.8
 * Environment: Visual Studio, Pycharm, Jupyter Notebook
 * Packages: Scrapy, Matplotlib, Seaborn, Numpy, Scikit-learn, Flask
 * Other tools: Postman 
@@ -119,7 +119,7 @@ Since a lot of rows were deleted due to imcomplete data, the dataset is not that
 
 
 
-k
+
 
 
 
